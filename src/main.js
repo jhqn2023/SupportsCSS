@@ -61,22 +61,6 @@ if (typeof window !== "undefined" && window.CSS) {
       test: CSS.supports("color: color(srgb 0 0 1)"),
     },
     {
-      name: "color-mix",
-      test: CSS.supports("color: color-mix(in lch, white, black)"),
-    },
-    {
-      name: "container-units",
-      test: CSS.supports("width: 1cqi"),
-    },
-    {
-      name: "dynamic-viewport-units",
-      test: CSS.supports("width: 1dvi"),
-    },
-    {
-      name: "has",
-      test: CSS.supports("selector(:has(+ *))"),
-    },
-    {
       name: "houdini-paint-api",
       test: CSS.paintWorklet,
     },
